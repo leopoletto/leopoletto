@@ -22,11 +22,3 @@ Whether it’s refining HTML semantics, debugging a CSP violation, or guiding a 
 <br />
 
 "Let’s build the web — better."
-
-<br />
-<br />
-
-|   |    |
-| :----------------------- | :--------------------- |
-| <picture><source srcset="https://github-readme-stats.vercel.app/api?username=leopoletto&show_icons=true&include_all_commits=truee&theme=dark&rank_icon=github&hide_border=true"      media="(prefers-color-scheme: dark)"    /> <source      srcset="https://github-readme-stats.vercel.app/api?username=leopoletto&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true"      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"    /> <img src="https://github-readme-stats.vercel.app/api?username=leopoletto&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true" /> </picture> | <picture> <source      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=leopoletto&hide_border=true&theme=dark&layout=donut"      media="(prefers-color-scheme: dark)"    /> <source      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=leopoletto&hide_border=true&layout=donut"      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"    /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leopoletto&hide_border=true&layout=donut" /> </picture> |
-
