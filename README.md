@@ -1,24 +1,18 @@
 ## Hi there 👋
 
-I’m a technologist focused on the intersection of web standards, accessibility, performance, privacy, and digital ethics.
+I build production-ready applications and automation tools across Node.js and PHP stacks, combining backend services, browser automation, and system-level scripting.
 
-As the founder of [WizardCompass](https://github.com/wizardcompass), I lead the design and development of tools that transform complex technical audits into actionable insights. My work is rooted in research and driven by purpose — helping developers, designers, and digital teams build ethical, performant, and compliant web experiences.
+Highlights:
 
-Over the years, I’ve shifted from building websites and systems to questioning how we build them — and why. Today, I focus on creating scalable foundations that promote transparency, accessibility, and user respect by default.
+- Node.js Automation: CLI tools with Commander.js, p-limit, and Unix utilities (jq, yq) for fast, reliable, dependency-light pipelines.
 
+- Browser Engineering: Puppeteer scripts for site data extraction, CSP/SRI checks, font performance, and automated Lighthouse audits.
 
-## 🔍 Areas of focus:
+- Chrome Extensions: Privacy monitoring tools with real-time request inspection and configurable blocking.
 
-- Accessibility Audits & Compliance (WCAG, ARIA, assistive tech)
-- Privacy & Security Headers, Data Ethics (CSP, DNT, GDPR)
-- Web Performance, Lighthouse, and Core Web Vitals
-- Research & Development of internal tools and methodologies
-- Developer Education and Documentation Strategy
+- High-Accuracy Integrations: Google’s C++ robots.txt parser wrapped in Node.js for precise crawl workflows.
 
-<br />
+- I solve problems across full-stack, automation, and performance tooling — delivering faster, lighter, and reliable solutions that many JS developers don’t touch.
 
-Whether it’s refining HTML semantics, debugging a CSP violation, or guiding a team toward more ethical digital decisions, I bring the same level of curiosity, depth, and care.
-
-<br />
-
-"Let’s build the web — better."
+Tech Stack:
+Node.js, Puppeteer, Commander.js, p-limit, Chrome Extensions, Lighthouse, Laravel, Vue.js, MySQL, Redis, Docker, GitHub Actions, Bash/Unix tools (jq, yq)
