@@ -1,18 +1,16 @@
 ## Hi there 👋
 
-I build production-ready applications and automation tools across Node.js and PHP stacks, combining backend services, browser automation, and system-level scripting.
+I’m a Senior Full-Stack Engineer who builds production-ready applications and automation tools across Node.js and PHP ecosystems, combining backend services, browser automation, and system-level scripting.
 
-Highlights:
+Over the last several years, I’ve:
+- Delivered full-stack web apps with `Laravel`, `Vue`, and modern `JS` pipelines.
+- Built automation tooling with Node.js, Puppeteer, and Commander.js — everything from data extraction to site performance auditing.
+- Engineered performance workflows that measure Core Web Vitals, enforce CSP/SRI security, and optimize web fonts.
+- Wrapped Google’s production `C++` `robots.txt` parser in Node.js for high-accuracy crawl compliance.
+- Created Chrome extensions for privacy and request monitoring.
 
-- Node.js Automation: CLI tools with Commander.js, p-limit, and Unix utilities (jq, yq) for fast, reliable, dependency-light pipelines.
+Beyond shipping code, I’ve launched Wizard Compass, an educational initiative that turns Chrome Lighthouse audits into interactive lessons. My goal is to make complex performance, accessibility, and security concepts understandable and actionable for developers of all levels.
 
-- Browser Engineering: Puppeteer scripts for site data extraction, CSP/SRI checks, font performance, and automated Lighthouse audits.
+I thrive in roles where I can solve hard technical problems, mentor others, and deliver measurable improvements to reliability, speed, and security.
 
-- Chrome Extensions: Privacy monitoring tools with real-time request inspection and configurable blocking.
-
-- High-Accuracy Integrations: Google’s C++ robots.txt parser wrapped in Node.js for precise crawl workflows.
-
-- I solve problems across full-stack, automation, and performance tooling — delivering faster, lighter, and reliable solutions that many JS developers don’t touch.
-
-Tech Stack:
-Node.js, Puppeteer, Commander.js, p-limit, Chrome Extensions, Lighthouse, Laravel, Vue.js, MySQL, Redis, Docker, GitHub Actions, Bash/Unix tools (jq, yq)
+Tech stack: `Node.js`, `Puppeteer`, `Commander.js`, `p-limit`, `Laravel`, `Vue.js`, `MySQL`, `Redis`, `Docker`, `GitHub Actions`, `Bash/Unix (jq, yq)`, `Chrome Extension APIs`, `Lighthouse`.
