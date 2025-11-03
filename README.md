@@ -13,4 +13,4 @@ Beyond shipping code, I’ve launched Wizard Compass, an educational initiative 
 
 I thrive in roles where I can solve hard technical problems, mentor others, and deliver measurable improvements to reliability, speed, and security.
 
-Tech stack: `Node.js`, `Puppeteer`, `Commander.js`, `p-limit`, `Laravel`, `Vue.js`, `MySQL`, `Redis`, `Docker`, `GitHub Actions`, `Bash/Unix (jq, yq)`, `Chrome Extension APIs`, `Lighthouse`.
+Tech stack: `Laravel`, `Vue.js`, `MySQL`, `Redis`, `Docker`, `GitHub Actions`, `Bash/Unix (jq, yq)`, `Chrome Extension APIs`, `Lighthouse`, `Node.js`, `Puppeteer`, `Commander.js`, `p-limit`.
