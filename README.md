@@ -61,8 +61,7 @@ Projects here are **original work**, not forks:
     Chrome extension for inspecting request behavior, privacy signals, and third-party tracking patterns.
 
 - **Font tooling & analysis**
-  - https://github.com/leopoletto/font-lint-python-scripts
-  - Self-hosting pipelines, font metadata extraction, Unicode coverage analysis, and fallback auditing  
+  - [Self-hosting pipelines](https://github.com/leopoletto/font-lint-python-scripts), [font metadata extraction, Unicode coverage analysis, and fallback auditing](https://github.com/leopoletto/font-self-host)  
   - Built to support production typography decisions, not visual demos
 
 ---
