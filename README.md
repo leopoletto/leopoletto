@@ -52,20 +52,22 @@ These contributions are driven by production needs, not academic exercises.
 
 Projects here are **original work**, not forks:
 
-- **Robots.txt parsing & analysis**
-  - https://github.com/leopoletto/robots-txt-parser  
-    PHP library for parsing and analyzing robots.txt files, designed for auditability and scripting use cases.
+- **Robots.txt parsing & analysis**  
+  PHP library for parsing and analyzing robots.txt files, designed for auditability and scripting use cases.  
+  → https://github.com/leopoletto/robots-txt-parser  
 
-- **Privacy & request inspection**
-  - https://github.com/leopoletto/chrome-privacy-extension  
-    Chrome extension for inspecting request behavior, privacy signals, and third-party tracking patterns.
-
-- **Font tooling & analysis**
-  - https://github.com/leopoletto/font-self-host  
-    Self-hosting pipelines
-  - https://github.com/leopoletto/font-lint-python-scripts  
-    Font metadata extraction, Unicode coverage analysis, and fallback auditing
-  - Built to support production typography decisions, not visual demos
+- **Privacy & request inspection**  
+  Chrome extension for inspecting request behavior, privacy signals, and third-party tracking patterns.  
+  → https://github.com/leopoletto/chrome-privacy-extension
+   
+- **Font tooling & analysis**  
+  Self-hosting pipelines  
+  → https://github.com/leopoletto/font-self-host  
+    
+  Font metadata extraction, Unicode coverage analysis, and fallback auditing  
+  → https://github.com/leopoletto/font-lint-python-scripts  
+    
+  Built to support production typography decisions, not visual demos
 
 ---
 
