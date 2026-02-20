@@ -42,7 +42,7 @@ Selected examples:
 
 - **Google / robotstxt (C++)**  
   Authored documentation and behavior corrections to align CLI output with actual parser behavior  
-  → https://github.com/google/robotstxt/pull/78 (pending merge)
+  → https://github.com/google/robotstxt/pull/78
 
 These contributions are driven by production needs, not academic exercises.
 
