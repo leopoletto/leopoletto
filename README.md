@@ -1,102 +1,55 @@
-# Leonardo Poletto
+# About
 
-Software Engineer focused on building **reliable systems under real-world constraints**.
+I am a Software Engineer and Consultant with 15 years of experience specialized in building **deterministic automation, data pipelines, and reliable systems under real-world constraints**.
 
-I work across backend, frontend, and platform layers, with a strong emphasis on:
+As the founder of **[99codes](https://github.com/99codes)**, I partner with agencies and enterprises to conduct deep technical audits, optimize core operations, and build high-scale integrations that turn messy workflows into robust software architecture.
 
-- system correctness and data integrity  
-- performance, scalability, and predictable behavior  
-- web standards, privacy, and automation  
-- evolving legacy systems without breaking production  
+My work spans the backend, frontend, and platform layers, with a strict emphasis on:
 
-Most repositories here are **tools, experiments, and reference implementations** extracted from real production work — built to solve concrete problems, not demos.
-
----
-
-## What you’ll find here
-
-### Open-Source Contributions (Upstream)
-
-I contribute directly to widely used open-source projects when production work exposes gaps in correctness, documentation, or real-world behavior.
-
-These are **upstream contributions**, not forks or experiments.
-
-Selected examples:
-
-- **Tighten / Jigsaw**  
-  Authored the core implementation for allowing collections to be defined via functions  
-  → https://github.com/tighten/jigsaw/pull/686  
-  (Code authored by me; styling and tests were later added by maintainers before merge.)
-
-- **PHP.net**  
-  Fixed responsiveness and accessibility issues in syntax highlighting across the documentation site  
-  → https://github.com/php/web-php/pull/777  
-
-- **Spatie / laravel-csp**  
-  Contributed fixes and improvements to Content Security Policy enforcement  
-  → https://github.com/spatie/laravel-csp/pull/178  
-
-- **Google Chrome / Lighthouse**  
-  Contributed fixes identified through real-world auditing workflows  
-  → https://github.com/GoogleChrome/lighthouse/pull/16665  
-
-- **Google / robotstxt (C++)**  
-  Authored documentation and behavior corrections to align CLI output with actual parser behavior  
-  → https://github.com/google/robotstxt/pull/78
-
-These contributions are driven by production needs, not academic exercises.
+* **System Correctness & Data Integrity:** Designing bulletproof ETL pipelines and batch workflows that eliminate manual data entry.
+* **Performance & Predictable Behavior:** Evolving legacy infrastructures and scaling applications without breaking production.
+* **Web Standards, Privacy, & Security:** Auditing digital tracking compliance, scrapers, bot management, and resource optimization.
 
 ---
 
-### Authored Tools & Libraries
+## Technical Assurance & Authored Tooling
 
-Projects here are **original work**, not forks:
+I build production-ready reference implementations, custom crawlers, and analysis pipelines designed to solve concrete operational problems:
 
-- **Robots.txt parsing & analysis**  
-  PHP library for parsing and analyzing robots.txt files, designed for auditability and scripting use cases.  
-  → https://github.com/leopoletto/robots-txt-parser  
-
-- **Privacy & request inspection**  
-  Chrome extension for inspecting request behavior, privacy signals, and third-party tracking patterns.  
-  → https://github.com/leopoletto/chrome-privacy-extension
-   
-- **Font tooling & analysis**  
-  Self-hosting pipelines  
-  → https://github.com/leopoletto/font-self-host  
-    
-  Font metadata extraction, Unicode coverage analysis, and fallback auditing  
-  → https://github.com/leopoletto/font-lint-python-scripts  
-    
-  Built to support production typography decisions, not visual demos
+* **[Privacy Signals & Request Inspection](https://github.com/leopoletto/chrome-privacy-extension):** Authored an advanced browser extension to analyze third-party tracking behavior, resource consumption, and client-side digital privacy patterns.
+* **[LinkedIn Chrome Extension Probing Analysis](https://github.com/leopoletto/linkedin-chrome-extension-probing):** Documented and reconstructed a dataset analyzing client-side routines that probe over 4,200+ browser extensions, developing custom scrapers and report generators to evaluate passive fingerprinting risks.
+* **[Bot Compliance & Robots.txt Parsing](https://github.com/leopoletto/robots-txt-parser/):** Developed a high-performance open-source PHP library for parsing and debugging robots.txt files, optimizing bot management and search compliance.
+* **Typography & Performance Pipelines:** Engineered [self-hosting pipelines](https://github.com/leopoletto/font-self-host) and [metadata extraction tooling](https://github.com/leopoletto/font-lint-python-scripts) to enforce web standards and predict typography fallbacks in production environments.
 
 ---
 
-### Automation & Systems Work
+## Upstream Open-Source Contributions
 
-Across repositories you’ll see:
+When production constraints expose gaps in modern frameworks or documentation, I contribute directly back to the core tools the industry relies on:
 
-- CLI tools and batch pipelines for crawling, analysis, and large-scale processing  
-- Node.js, PHP, Python, and shell-based workflows  
-- Practical approaches to:
-  - concurrency control  
-  - async processing  
-  - caching and idempotency  
-  - predictable failure handling  
+* **[Google Chrome / Lighthouse](https://github.com/GoogleChrome/lighthouse/pull/16665):** Contributed performance and architecture fixes identified through real-world technical auditing workflows.
+* **[Google / robotstxt (C++)](https://github.com/google/robotstxt/pull/78):** Authored documentation and behavior corrections to align core CLI outputs with actual parser behavior.
+* **[Tighten / Jigsaw](https://github.com/spatie/laravel-csp/pull/178):** Authored the core upstream implementation allowing dynamic collection definitions via functions in the static-site generator.
+* **[Spatie / laravel-csp](https://github.com/spatie/laravel-csp/pull/178):** Contributed fixes and behavioral improvements to Content Security Policy enforcement in the Laravel ecosystem.
+* **[PHP.net](https://github.com/php/web-php/pull/777):** Fixed accessibility, layout responsiveness, and rendering issues across the official global documentation site.
 
 ---
 
-## How I work
+## Automation & Systems Philosophy
 
-I’m most effective in environments where:
+Every system I build incorporates a practical, battle-tested approach to:
 
-- requirements are messy and constraints are real  
-- systems must stay online while they evolve  
-- correctness matters as much as speed  
-- ownership is expected, not assigned  
+* Concurrency control and safe async processing.
+* Data caching, parsing accuracy, and strict idempotency.
+* Predictable failure handling in massive, multi-merchant environments.
 
-I value clarity, boring reliability, and shipping things that last.
+I am most effective where requirements are fluid, constraints are real, and systems must stay 100% online while they evolve.
 
 ---
 
-📍 Open to full-time roles and selected consulting engagements  
-🔗 LinkedIn: https://www.linkedin.com/in/leopoletto/
+ Positioned for select consulting engagements, data intelligence architecture, and technical audits via 99codes.
+
+**Let's talk engineering efficiency:**
+
+* LinkedIn: https://www.linkedin.com/in/leopoletto/
+* Email: hello@leopoletto.dev
