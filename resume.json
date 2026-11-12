@@ -1,0 +1,324 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Leonardo Poletto",
+    "label": "Senior PHP & Laravel Engineer | 15 years backend, 7 with Laravel | Integrations, queues, legacy migrations | LLM features in Laravel apps | Remote",
+    "email": "hello@leopoletto.dev",
+    "url": "https://leopoletto.dev",
+    "summary": "I'm a senior PHP and Laravel engineer in São Paulo with 15 years of backend-heavy experience, seven of them with Laravel, much of it working remotely with UK and US teams.\n\nAt Simple Education, I went from being the company's only developer to leading a team of four, rebuilding its LMS from CakePHP to Laravel and Vue.js; the company still sells it today as SimpleLab. At StudentCrowd in the UK, I worked across Symfony and Laravel services on GCP and built the one-time-PIN verification flow that unblocked a backlog of unverified reviews, rolled out with GrowthBook experiments. For US clients I built features on a high-traffic Laravel Vapor platform with Livewire and Nova, and at AE Studio onboarded into an unfamiliar framework within two weeks.\n\nThe work I do best sits behind the UI: integrations, webhooks and payment gateways, queues and background jobs, data syncs, and legacy migrations that have to keep running while they change.\n\nI also build LLM-backed features inside Laravel apps, using models where interpretation helps and deterministic code where results must be repeatable. One public example turned 699 LaraJobs emails into a structured dataset with GPT-5 mini for about $2.30, and was featured in Artisan Weekly. I use Claude Code, Codex and Gemini CLI daily, with specs in the repo and every diff reviewed against them.\n\nI've had contributions merged into php.net, Tighten Jigsaw, Spatie Laravel CSP and Google's robots.txt parser, and I publish research and open-source tools at leopoletto.dev.\n\nI'm looking for a senior Laravel or PHP backend role on a product team where engineers take their changes all the way to production, ask why before building, and write their decisions down.",
+    "location": {
+      "city": "São Paulo",
+      "region": "SP",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      { "network": "GitHub", "username": "leopoletto", "url": "https://github.com/leopoletto" },
+      { "network": "LinkedIn", "username": "leopoletto", "url": "https://www.linkedin.com/in/leopoletto" }
+    ]
+  },
+  "work": [
+    {
+      "name": "99codes",
+      "position": "Senior Software Engineer",
+      "location": "São Paulo, Brazil · Remote",
+      "startDate": "2026-05",
+      "summary": "Self-employed. Contract engineering for Brazilian companies: workflow automation, system integrations, and LLM-backed features on Laravel and PostgreSQL.",
+      "highlights": [
+        "Agent-assisted development with Claude Code, Codex, and Gemini CLI under explicit review rules: specs and conventions live in the repo, agent changes are checked against the spec, and the scope of every diff is verified before commit."
+      ]
+    },
+    {
+      "name": "Wizard Compass",
+      "position": "Software Engineer, Independent Research & Open Source",
+      "location": "Brazil · Remote",
+      "startDate": "2025-01",
+      "endDate": "2026-05",
+      "summary": "Self-employed. Full-time independent research into how the web is crawled and rendered, and the tooling to measure it. Crawling and analysis pipelines in Laravel, Node.js, and Python, built to respect robots.txt and keep load on target servers minimal.",
+      "highlights": [
+        "Reconstructed the list of 4,279 Chrome extension IDs LinkedIn probes client-side, resolved 4,100 of them against the Chrome Web Store with a checkpointed, rate-limited Playwright scraper, and published the dataset, code, and a carefully scoped write-up.",
+        "Built WizardCompass, a Node.js CLI for pixel-accurate Open Graph / Twitter Card validation: per-platform bot simulation, empirically measured font metrics for card layout prediction, cloaking detection, and a replay mode for batch runs over ~800 pre-crawled sites.",
+        "Documented crawler behavior platforms don't publish: Facebook's two-phase fetch, a Brotli gap in LinkedIn's fetcher, and Slack's 32 KB range limit.",
+        "Built FontLint, a web font performance analyzer: a Puppeteer crawler, Python processing scripts called from Laravel via Symfony Process, and a reference database of ~14K Google Fonts variants.",
+        "Brand-audit crawler extracting colors, fonts, metadata, structured data, security headers, and console signals into structured JSON, run as a worker triggered from a Laravel app.",
+        "Merged upstream contributions to spatie/laravel-csp (missing Trusted Types keyword, with tests) and google/robotstxt (README corrected against actual CLI output, exit codes documented)."
+      ]
+    },
+    {
+      "name": "StudentCrowd",
+      "position": "Software Engineer",
+      "location": "London, United Kingdom · Remote",
+      "startDate": "2024-01",
+      "endDate": "2025-01",
+      "summary": "Contract. Student decision-making platform for university and accommodation reviews. Symfony and Laravel services running on the platform team's GCP infrastructure (Kubernetes, Pub/Sub, and BigQuery), with Elasticsearch search, Metabase reporting, and GrowthBook experiments.",
+      "highlights": [
+        "Unblocked a backlog of unverified reviews that B2B accommodation partners were complaining about by architecting an email verification workflow with one-time PINs (OTP).",
+        "Added scheduled re-engagement emails at 24h, 48h, and 72h to recover stalled verifications without manual follow-up.",
+        "Orchestrated feature rollouts with GrowthBook, streaming experiment data to BigQuery, and visualizing results through custom SQL views in Metabase.",
+        "Investigated ranking disputes from high-value B2B partners by reverse-engineering the scoring engine, tracing the shifts to its time-decay weighting, 12-month window, and review-to-bed density metric, and documenting the root cause with data; the scoring itself stayed unchanged.",
+        "Built advanced search filters on Elasticsearch, kept in sync with BigQuery for reporting.",
+        "Two-way sync between the platform and SendGrid: outbound API updates plus inbound webhooks, including unsubscribes propagated back to the core database to respect consent under GDPR and PECR.",
+        "Fixed campus-centroid bias in commute times: parsed Google Directions steps to route to physical campus entrances instead of generic map points, normalized travel times to 8:00 AM traffic, and cached routes to cut external API calls.",
+        "Guarded user role transitions with strict validation and built a polymorphic bookmarking system across entity types.",
+        "Proof of concept enriching star ratings with Google Cloud Natural Language sentiment, delivered as a reproducible codebase."
+      ]
+    },
+    {
+      "name": "99codes",
+      "position": "Independent Software Consultant",
+      "startDate": "2023-03",
+      "endDate": "2023-12",
+      "summary": "Short engagements for international clients, stabilizing and extending legacy production systems.",
+      "highlights": [
+        "Re-architected a media ingestion pipeline to accept multi-gigabyte video uploads: asynchronous processing, background job orchestration, and completion notifications instead of blocking requests.",
+        "Took over a complex codebase bought from a third-party marketplace and improved its reliability, performance, and observability without disrupting live users."
+      ]
+    },
+    {
+      "name": "99codes (client: Gambling.com Group)",
+      "position": "Senior Software Engineer",
+      "location": "United States",
+      "startDate": "2022-04",
+      "endDate": "2023-02",
+      "highlights": [
+        "Built features on a high-traffic betting platform running on Laravel Vapor (AWS Lambda), using the TALL stack (Tailwind CSS, Alpine.js, Livewire, Laravel) and Laravel Nova, and consuming data shared across multiple websites from a GraphQL API.",
+        "Extended Paid Memberships Pro on a partner-operated WordPress membership site with custom PHP for time-restricted plans and campaign-specific rules."
+      ]
+    },
+    {
+      "name": "99codes (client: AE Studio)",
+      "position": "Senior Software Engineer",
+      "location": "California, United States",
+      "startDate": "2022-04",
+      "endDate": "2022-12",
+      "highlights": [
+        "Moved from PHP/Laravel to Nullstack, a full-stack JavaScript framework, in two weeks and shipped production features in a fast-moving agency environment.",
+        "Built a crypto-payment-gated booking flow: a standard Calendly embed placed behind a browser-wallet transaction on Polygon, with no custom scheduling infrastructure or enterprise API costs.",
+        "Built the front-end foundations of PlanetPlay (planetplay.com), an online game store, in Nullstack and Tailwind CSS against a backend-for-frontend asset proxy."
+      ]
+    },
+    {
+      "name": "99codes",
+      "position": "Independent Software Consultant",
+      "startDate": "2021-06",
+      "endDate": "2022-03",
+      "highlights": [
+        "Built the core platform for an incentive-campaign agency serving major consumer brands: Laravel, Vue.js, and Inertia, with a backend-for-frontend layer ready for third-party APIs.",
+        "Led the initial implementation of a large sales-incentive campaign under tight timelines and moving requirements.",
+        "Worked with senior engineers on core workflows of an HR SaaS platform during a growth phase."
+      ]
+    },
+    {
+      "name": "Simple Education",
+      "position": "Senior Software Engineer & Team Lead",
+      "location": "São Paulo, Brazil",
+      "startDate": "2019-03",
+      "endDate": "2021-05",
+      "summary": "Contract. Moved from freelance to a dedicated contract after two years as the company's only developer: first four days a week, then full-time as demand grew, still setting my own hours as the only person on that arrangement. Rebuilt the products I had created as a freelancer, now also owning hiring, vendors, and day-to-day work with the pedagogical team.",
+      "highlights": [
+        "Led a team of four: hired and trained an intern and hired and managed freelancers, including a designer and a front-end developer brought in to polish the mobile version.",
+        "Designed the wireframes and led the rebuild of the core LMS from CakePHP 2.9 to Laravel and Vue.js, with CI/CD and automated tests; the company still sells the platform today as SimpleLab. Extended it into an online product for parents, with live classes run by online teachers, and wrote a package to manage the Zoom meetings behind them.",
+        "Worked daily with the pedagogical team to turn their needs into features and managed relationships with third-party providers.",
+        "Built a Laravel and Vue CRM on a configurable state machine, so the sales manager could change the sales process without code changes: every non-final state required a comment and a scheduled next action. Integrated RedePay checkout for family enrollments.",
+        "Integrated Iugu and Juno payment gateways for boleto and credit card subscriptions.",
+        "Built single sign-on across the company's apps: one login, with new users provisioned to every selected app in one step.",
+        "Rebuilt video ingestion as an asynchronous S3-to-Vimeo upload with automated speech-to-text subtitles, covering 1,700+ educational videos with no manual transcription, and paired with our intern to build a browser-based subtitle editor (Vue.js and the Vimeo Player SDK, with in/out timestamps and multiple languages)."
+      ]
+    },
+    {
+      "name": "99codes (client: Simple Education)",
+      "position": "Software Consultant",
+      "location": "São Paulo, Brazil",
+      "startDate": "2017-01",
+      "endDate": "2019-02",
+      "summary": "Simple Education's first developer, working freelance. I built a series of small, focused applications around its courses and the way it sold them to schools.",
+      "highlights": [
+        "Built a teacher PWA that mirrors digital textbook pages onto the classroom whiteboard over Miracast or Chromecast, with Canvas-based annotation tools (pen, colors, eraser, undo/redo, zoom) and audio hotspots the educational team placed through an admin panel; in use for over two years across 56 schools (9 in Recife), reaching nearly 14,000 students and covering 3,666 lessons.",
+        "Made lessons downloadable before class, since thick walls weakened Wi-Fi and blocked screen mirroring in most schools: each lesson's HTML, JS, CSS, images, and audio were cached within PWA storage limits, using Service Workers and, for older iPads, per-lesson AppCache manifests generated on demand. Visited about 12 schools in São Paulo and Recife to assess Wi-Fi and devices, and advised schools on which devices to buy.",
+        "Built an asset gallery for 263,000+ educational images, auto-tagged with Google Cloud Vision (labels, OCR, and SafeSearch screening before storage), and deduplicated on upload by content hash.",
+        "Built the first versions of the company's LMS, CRM, student app, and support app, plus two websites and three landing pages.",
+        "Built an on-demand cart generator: the sales team created purchase links matching the terms agreed with each school, and schools sent them to parents to buy course material, the main way courses were paid for.",
+        "Generated 198,000+ educational audio files with Google WaveNet TTS once and served them locally, for fixed costs and no runtime API dependency."
+      ]
+    },
+    {
+      "name": "99codes",
+      "position": "Independent Software Consultant",
+      "location": "Brazil",
+      "startDate": "2014-08",
+      "endDate": "2016-12",
+      "highlights": [
+        "External technical lead for a partner agency, keeping enterprise accounts (BMW, NEC, Mitsubishi) through an internal restructuring by turning board-level requirements into shipped campaign software.",
+        "For NEC at Futurecom, built an air-gapped interactive installation: a tablet controlled a TV set beneath a 3D city model to simulate smart-city emergency response, running without downtime despite unreliable venue connectivity.",
+        "For Mitsubishi, built an HTML5 touch kiosk, with an FFmpeg pipeline converting marketing video to WebM for smooth 60 fps playback on constrained hardware.",
+        "Built and maintained BMW's Rider Experience platform: course bookings, event calendars, and member accounts.",
+        "Migrated systems for regulated environments, including Rontan's emergency-vehicle equipment catalog and the public portal for Programa Recomeço, a São Paulo state government program, under strict accessibility requirements.",
+        "Delivered 100+ custom WordPress builds for partner agencies on bespoke ACF Pro themes, no page builders.",
+        "Built \"O Acre Contra Chico Mendes,\" a long-form interactive report with scroll-synced video and SVG animation running at 60 fps on mobile."
+      ]
+    },
+    {
+      "name": "ED Comunicação",
+      "position": "Full Stack Developer",
+      "location": "São Paulo, Brazil · On-site",
+      "startDate": "2012-06",
+      "endDate": "2014-05",
+      "highlights": [
+        "Rebuilt hidraulicapotenza.com.br (launched Oct 2013): wireframes the designers worked from, ~3,000 products re-categorized with a 301 redirect map, sitemap and structured markup, site search with a faceted sidebar, and the entire back end and admin.",
+        "Built CMS-driven sites on CakePHP and WordPress for NEC, Mitsubishi, BMW, Kawasaki, BIG Festival, and Suzano.",
+        "Technical voice in client meetings alongside the agency owner."
+      ]
+    },
+    {
+      "name": "JHMA Studios",
+      "position": "Full Stack Developer",
+      "location": "São Paulo, Brazil · On-site",
+      "startDate": "2011-07",
+      "endDate": "2012-06",
+      "highlights": [
+        "Rebuilt the product catalog for ACE Revestimentos with 10+ responsive templates and a custom PHP admin.",
+        "Mapped legacy query-string URLs to clean routes with an XML-driven 404 fallback, preserving rankings and increasing indexed products."
+      ]
+    },
+    {
+      "name": "AG5",
+      "position": "Full Stack Developer",
+      "location": "São Paulo, Brazil · On-site",
+      "startDate": "2010-01",
+      "endDate": "2010-06",
+      "highlights": [
+        "Registration system for a national franchise convention.",
+        "Sales incentive portal with weekly rankings across franchisees."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Impacta Tecnologia",
+      "area": "Systems Analysis and Development (coursework), Information Technology",
+      "startDate": "2010-07",
+      "endDate": "2014-06",
+      "courses": [
+        "Completed most of the Systems Analysis and Development coursework (IT fundamentals, databases, and programming). Did not complete the degree."
+      ]
+    },
+    {
+      "institution": "ETEC - Escola Técnica Estadual de São Paulo",
+      "area": "Computer Science",
+      "studyType": "Technical Program",
+      "startDate": "2007-06",
+      "endDate": "2008-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "keywords": ["PHP", "Laravel", "Livewire", "Symfony", "Node.js", "Python", "REST APIs", "Webhooks", "Background Jobs"]
+    },
+    {
+      "name": "AI and LLMs",
+      "keywords": ["Large Language Models (LLM)", "Information Extraction", "Text Classification", "Prompt Engineering", "AI Agents", "Google Gemini", "Google Cloud Vision", "ElevenLabs", "Claude Code", "OpenAI Codex"]
+    },
+    {
+      "name": "Data",
+      "keywords": ["PostgreSQL", "MySQL", "Redis", "Elasticsearch", "Structured Data"]
+    },
+    {
+      "name": "Web crawling and performance",
+      "keywords": ["Web Scraping", "Puppeteer", "Playwright", "Content Security Policy", "Core Web Vitals"]
+    },
+    {
+      "name": "Frontend",
+      "keywords": ["Vue.js", "Inertia.js", "JavaScript", "TypeScript", "Tailwind CSS", "Service Workers", "WordPress", "Advanced Custom Fields (ACF)"]
+    },
+    {
+      "name": "Practices",
+      "keywords": ["A/B Testing", "Architecture Decision Records", "Legacy Migrations", "Team Leadership"]
+    }
+  ],
+  "languages": [
+    { "language": "Portuguese", "fluency": "Native or bilingual proficiency" },
+    { "language": "English", "fluency": "Professional working proficiency" }
+  ],
+  "projects": [
+    {
+      "name": "Robots TXT Validator",
+      "url": "https://robots.leopoletto.dev/",
+      "entity": "99codes",
+      "description": "Built on the Robots.txt Parser library. Check any site's robots.txt for mistakes, get a score out of 100 with every finding explained, and see how it ranks against other sites."
+    },
+    {
+      "name": "Robots.txt Parser",
+      "url": "https://github.com/leopoletto/robots-txt-parser",
+      "entity": "99codes",
+      "description": "A PHP library for parsing and auditing robots.txt — from a URL, a file, or a string — including the robots <meta> tags and X-Robots-Tag headers that govern indexing alongside it."
+    },
+    {
+      "name": "LaraJobs market analysis",
+      "url": "https://github.com/leopoletto/larajobs-market-analysis",
+      "entity": "99codes",
+      "description": "LLM extraction pipeline over 699 LaraJobs emails (2023–2026): IMAP archive in Laravel, cleaning before the model, GPT-5 mini structured extraction into 14 fields, per-record caching, report generator."
+    },
+    {
+      "name": "LinkedIn Chrome extension probing",
+      "url": "https://leopoletto.dev/blog/linkedin-chrome-extension-probing/",
+      "entity": "Wizard Compass",
+      "description": "Reconstruction of the 4,279 extension IDs LinkedIn checks client-side; 4,100 resolved against the Chrome Web Store. Dataset, scraper, report generator and write-up."
+    },
+    {
+      "name": "Chrome privacy extension",
+      "url": "https://github.com/leopoletto/chrome-privacy-extension",
+      "entity": "Wizard Compass",
+      "description": "Inspects the third-party requests, tracking behaviour and resource usage of the sites you visit."
+    },
+    {
+      "name": "font-self-host",
+      "url": "https://github.com/leopoletto/font-self-host",
+      "entity": "Wizard Compass",
+      "description": "Pipeline for self-hosting web fonts: download, subsetting and metadata extraction."
+    },
+    {
+      "name": "font-lint-python-scripts",
+      "url": "https://github.com/leopoletto/font-lint-python-scripts",
+      "entity": "Wizard Compass",
+      "description": "Python scripts for font analysis and fallback prediction, called from Laravel via Symfony Process."
+    },
+    {
+      "name": "php.net mobile code-block fix",
+      "url": "https://github.com/php/web-php/pull/777",
+      "description": "Fixed code blocks overflowing on mobile across php.net, including the PHP 8.2 release page. Merged Aug 2023.",
+      "startDate": "2023-08"
+    }
+  ],
+  "publications": [
+    {
+      "name": "3 Years of Laravel Jobs",
+      "publisher": "leopoletto.dev",
+      "url": "https://leopoletto.dev/blog/larajobs-market-analysis/",
+      "summary": "Analysis of 699 LaraJobs postings (2023–2026) extracted with an LLM pipeline. Featured in Artisan Weekly."
+    },
+    {
+      "name": "A 4,279-Extension Fingerprint",
+      "publisher": "leopoletto.dev",
+      "url": "https://leopoletto.dev/blog/linkedin-chrome-extension-probing/",
+      "summary": "Reconstruction of the Chrome extensions LinkedIn checks for in the browser, with the dataset and code behind it."
+    }
+  ],
+  "references": [
+    {
+      "name": "Paulo Rodrigues, Head of Technology",
+      "reference": "Tive a oportunidade de trabalhar com o Leonardo por mais de três anos e posso afirmar que é um profissional que reúne excelência técnica, atenção aos detalhes e uma visão de produto que vai muito além do desenvolvimento de software. Possui um domínios sólido de tecnologias front-end e back-end, com destaque para PHP, Laravel e frameworks modernos de desenvolvimento web.\n\nUm dos seus grandes diferenciais é a capacidade de unir qualidade técnica, segurança e experiência do usuário. É criterioso coma arquitetura e a qualidade do código, mas também demonstra uma sensibilidade acima da média para aspectos visuais, consistência de interfaces, padrões de cores e usabilidade. Essa combinação faz com que suas entregas sejam tecnicamente robustas, e também bem construídas sob a perspectiva de quem utiliza o produto.\n\nMais do que um excelente desenvolvedor, o Leonardo é alguém que pensa como criador de produtos. Tem facilidade para compreender as necessidades dos clientes, identificar oportunidades e transformar problemas reais em soluções práticas e bem executadas. É o tipo de profissional que agrega valor tanto nas decisões técnicas quanto na evoluçoes de um produto. Eu Recomendo seu trabalho com muita confiança e acredito que será uma excelente aquisição para qualquer equipe de tecnologia."
+    },
+    {
+      "name": "Rafael Gomes, Senior Front-end Engineer (studied together at ETEC)",
+      "reference": "Conheço o Léo desde o ensino médio, depois fizemos ETEC juntos, onde demos nossos primeiros passos na programação. Naquela época, conciliávamos trabalho, ETEC e ensino médio, uma rotina puxada que fez parte do início da nossa trajetória em TI.\n\nComeçamos a trabalhar com tecnologia praticamente na mesma época, seguindo caminhos diferentes: ele como Full Stack e eu mais focado em Front-end/Designer.\n\nMesmo sem termos trabalhado juntos na mesma empresa, sempre tivemos uma grande troca de conhecimento. No início da minha carreira, ele me ajudou muito com mentoria, motivação e até indicações para oportunidades.\n\nÉ um excelente profissional, sempre antenado, curioso e com muita vontade de aprender e evoluir. Tenho muita satisfação em acompanhar sua trajetória desde o começo!"
+    },
+    {
+      "name": "Humberto Piva, Full Stack Developer (reported to Leonardo directly)",
+      "reference": "É raro encontrar alguém cheio de conhecimento, ágil e que consiga transmitir isso com tanta facilidade.\nTrabalhei com o Leonardo em duas empresas e ele sempre foi muito dedicado. Os problemas complexos pareciam fáceis quando ele pegava para resolver.\nO conhecimento do Leonardo sempre foi muito amplo e profundo em todos as categorias de um desenvolvedor. Suas virtudes envolvem organização, compromisso, evolução constante e uma facilidade imensa na hora de trabalhar em equipe.\nAlém de um ótimo programador, conseguia ser um excelente mentor e transmitia conhecimentos que carrego até hoje em minha vida profissional."
+    }
+  ],
+  "meta": {
+    "lastModified": "2026-11-10",
+    "version": "v1"
+  }
+}
